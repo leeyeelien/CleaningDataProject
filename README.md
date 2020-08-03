@@ -1,5 +1,6 @@
 # CleaningDataProject
-The codes in "run_analysis.R" cleans and tidies a dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The codes in "run_analysis.R" cleans and tidies this dataset:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 To run the analysis, 
 1. Download and unzip the dataset into your working directory. Do not modify the names of the folders and files in them.
