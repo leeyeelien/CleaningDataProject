@@ -73,20 +73,24 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 - tBodyGyroJerkMean
 
 
-Getting the Tidy Dataset
+Getting the Tidy Datasets
 ======================================
 Firstly, for both the train and test data, the subject and activity labels are merged with the measured values for all the variables. Then, both are merged to form a complete dataset.
 
-Next, all columns holding mean and standard deviation values are selected for the tidy dataset table. The column names are then edited to make them more readble.
+Next, all columns holding mean and standard deviation values are selected for the tidy dataset table. The column names are then edited to make them more readble. The resulting dataset is: tidy_dataset.txt
 
-Finally, a new summary table is created for the average values of all the selected (mean and standard deviation) variables for each subject and activity.
+Finally, a new summary table is created for the average values of all the selected (mean and standard deviation) variables for each subject and activity. This dataset is: tidy_summary.txt.
 
 The codes for this cleaning and summarizing are in the file "run_analysis.R" with inline comments explaining the steps.
 
 
+Tidy Dataset
+======================================
+tidy_dataset.txt
 
+This table contains 68 variables from the original dataset (see above) including the subject (a number), activity (a description), and 66 mean and standard deviation values. There are 10299 rows of data from both the train and test sets from the original dataset.
 
+tidy_summary.txt
 
-
-
+This table contains 68 68 variables from the original dataset (see above) including the subject (a number), activity (a description), and 66 average values, one for each of the 66 mean and standard deviation variables from the original dataset. There are 180 rows of the average values variables, one for each activity of each subject.
 
