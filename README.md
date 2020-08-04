@@ -1,5 +1,12 @@
 # CleaningDataProject
+
+There are 3 files in this respository:
+1. README.md
+2. CodeBook.md
+3. run_analysis.R
+
 The codes in "run_analysis.R" cleans and tidies this dataset:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 To run the analysis, 
