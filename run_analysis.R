@@ -56,5 +56,5 @@ mean_std_data$Activity <- factor(mean_std_data$Activity)
 summary_data <- mean_std_data %>% group_by(Subject,Activity) %>% summarise_all(mean)
 
 #write the tidy datasets to files
-write.table(mean_std_data, file="UCI HAR Dataset/tidy_dataset.txt", sep=",", row.names=FALSE)
-write.table(summary_data, file="UCI HAR Dataset/tidy_summary.txt", sep=",", row.names=FALSE)
+write.table(mean_std_data, file="UCI HAR Dataset/tidy_dataset.txt", row.names=FALSE)
+write.table(summary_data, file="UCI HAR Dataset/tidy_summary.txt", row.names=FALSE)
