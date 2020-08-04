@@ -86,11 +86,11 @@ The codes for this cleaning and summarizing are in the file "run_analysis.R" wit
 
 Tidy Dataset
 ======================================
-tidy_dataset.txt
+tidy_dataset.txt:
 
 This table contains 68 variables from the original dataset (see above) including the subject (a number), activity (a description), and 66 mean and standard deviation values. There are 10299 rows of data from both the train and test sets from the original dataset.
 
-tidy_summary.txt
+tidy_summary.txt:
 
-This table contains 68 68 variables from the original dataset (see above) including the subject (a number), activity (a description), and 66 average values, one for each of the 66 mean and standard deviation variables from the original dataset. There are 180 rows of the average values variables, one for each activity of each subject.
+This table contains 68 variables from the original dataset (see above) including the subject (a number), activity (a description), and 66 average values, one for each of the 66 mean and standard deviation variables from the original dataset. There are 180 rows of the average values variables, one for each activity of each subject.
 
